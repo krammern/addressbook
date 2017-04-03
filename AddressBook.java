@@ -11,3 +11,24 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+	
+public void addContact(Contact c){
+	
+	
+	//public int numContacts(){
+	//	return contacts.length;
+	//}
+		
+	public int haveContact(String s){
+		for(int i = 0; i<numfriends; i++){
+			friends[i].printContact();
+	}
+	public int numContacts(){
+		return numfriends;
+	}
+		
+		
+	public int deleteContact(){
+		int position = haveContact(s);
+		
+//if(Friends[i].getName().equals(s)){
