@@ -31,4 +31,17 @@ public void addContact(Contact c){
 	public int deleteContact(){
 		int position = haveContact(s);
 		
+public static void main (String args[]){
+	Scanner scan = new Scanner(System.in);
+	Addressbook blackbook = new Addressbook();
+	menu();	//call the main method
+	int choice = scan.nextInt;
+	while choice != 5{
+		if(choice == 1){
+			if(blackbook.numContacts() < 10);
+	
+public static void menu(){
+	System.out.print("Enter the number");
+	System.out.print("1. Add Contact" /n "2. Delete Contact" /n "Print Number of Friends" /n "Print Output Info" /n "5. Quit");
+		
 //if(Friends[i].getName().equals(s)){
